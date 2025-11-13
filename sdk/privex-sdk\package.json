@@ -1,7 +1,7 @@
 {
-  "name": "@shadowfrog/sdk",
+  "name": "@privex/sdk",
   "version": "0.1.0",
-  "description": "TS SDK for ShadowFrog Protocol – ZK leaps on Solana",
+  "description": "TS SDK for Privex Protocol – ZK leaps on Solana",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
