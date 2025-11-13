@@ -9,7 +9,7 @@ Privex Solutions specializes in cryptographic protocols and encrypted data strea
 ## Architecture
 - **On-Chain**: Rust/Anchor program for mixer vaults, nullifiers, and proof verification.
 - **Off-Chain**: TS SDK for note generation, proof computation (Circom circuits), and relayer integration.
-- **Tech Stack**: Anchor, snarkjs for ZK, Poseidon hash, MLSAG-inspired rings. Frog PDAs for commitments.
+- **Tech Stack**: Anchor, snarkjs for ZK, Poseidon hash, MLSAG-inspired rings. PDAs for commitments.
 
 ![Architecture Diagram](https://github.com/ShadowFrogAdmin/ShadowFrog-Sdk/blob/main/docs/mermaid-diagram.svg)
 
