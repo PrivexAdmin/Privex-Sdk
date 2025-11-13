@@ -1,4 +1,4 @@
-# ShadowFrog Trusted Setup
+# Privex Trusted Setup
 
 For Groth16 powers-of-tau: Secure MPC ceremony needed for leap proofs.
 
