@@ -6,7 +6,7 @@
 Drawing from Pepe's shadows but with real ZK teeth, we let holders "leap" tokens anonymously: deposit to a mixer pond, prove ownership without revealing amounts, withdraw elsewhere. No traces, just frog vibes.
 
 - **Core Idea**: Zero-knowledge privacy for memecoin degens. Hide transfers from chain spies using SNARKs and commitment schemes. 
-- **Why?** Solana's fast, but transparent. SHADOWFROG fixes that with utility under the lily pad.
+- **Why?** Solana's fast, but transparent. $SHADOWFROG fixes that with utility under the lily pad.
 
 **Token**: $SHADOWFROG (CA: [Your Contract Address Here])  
 **Chain**: Solana  
@@ -17,7 +17,7 @@ Drawing from Pepe's shadows but with real ZK teeth, we let holders "leap" tokens
 - **Off-Chain**: TS SDK for note generation, proof computation (Circom circuits), and relayer integration.
 - **Tech Stack**: Anchor, snarkjs for ZK, Poseidon hash, MLSAG-inspired rings. Frog PDAs for commitments.
 
-![Architecture Diagram](https://via.placeholder.com/800x400?text=ShadowFrog+Flow:+Deposit+->+Prove+->+Leap) <!-- Draw.io export here -->
+![Architecture Diagram](https://github.com/ShadowFrogAdmin/ShadowFrog-Sdk/blob/main/docs/mermaid-diagram.svg)
 
 ### Key Features
 1. **Privacy Mixer**: Deposit $SHADOWFROG to a shared pond; withdraw with ZK proof of ownership.
