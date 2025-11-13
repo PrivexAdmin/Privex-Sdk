@@ -27,7 +27,7 @@ Privex Solutions specializes in cryptographic protocols and encrypted data strea
 
 ### Local Setup
 1. Clone & Install:
-git clone https://github.com/ShadowFrog-Sdk/shadowfrog-protocol
+git clone https://github.com/Privex-Sdk/shadowfrog-protocol
 cd privex-protocol
 yarn install  # JS/ZK deps
 anchor build
@@ -37,7 +37,7 @@ circom leap.circom --r1cs --wasm --sym
 snarkjs groth16 setup leap.r1cs powersoftau28_hez_final_10.ptau leap_0000.zkey
 
 ## Usage Example (JS SDK)
-import { PrivexSDK } from '@shadowfrog/sdk';
+import { PrivexSDK } from '@privex/sdk';
 import { Connection, Keypair } from '@solana/web3.js';
 
 const connection = new Connection('https://api.devnet.solana.com');
